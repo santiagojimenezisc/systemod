@@ -1,0 +1,12 @@
+﻿CREATE TABLE systemod.login (
+  ID int(255) NOT NULL AUTO_INCREMENT,
+  User varchar(255) DEFAULT NULL,
+  Password varchar(255) DEFAULT NULL,
+  Role int(255) DEFAULT NULL,
+  PRIMARY KEY (ID)
+)
+ENGINE = INNODB,
+AUTO_INCREMENT = 4,
+AVG_ROW_LENGTH = 8192,
+CHARACTER SET utf8,
+COLLATE utf8_general_ci;
